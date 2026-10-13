@@ -1,0 +1,80 @@
+* {
+    font-family: Arial;
+}
+
+body {
+    background-color: rgb(166, 217, 254);
+    margin: 0;
+}
+
+
+.navbar {
+    background-color: white;
+    padding: 15px;
+    border: 9px solid rgb(13, 83, 153);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    color: darkblue;
+}
+
+.links {
+    border: 8px solid rgb(139, 143, 143);
+    display: flex;
+    gap: 300px;
+}
+
+.links a {
+    color: darkblue;
+    font-size: 18px;
+}
+
+
+h1 {
+    text-align: center;
+    color: red;
+    margin: 30px;
+    
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    width: 250px;
+    padding: 20px;
+    border: 2px solid black;
+}
+
+.card h2 {
+    font-size: 22px;
+    color: darkblue;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card button {
+    background-color: rgb(251, 140, 22);
+    color: white;
+    padding: 10px;
+}
+
+
+.contact {
+    color: rgb(46, 4, 102);
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+}
